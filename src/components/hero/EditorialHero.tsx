@@ -20,7 +20,7 @@ export default function EditorialHero() {
   useEffect(() => {
     if (!loaded || !textRef.current || !leftColRef.current) return;
 
-    let mm = gsap.matchMedia();
+    const mm = gsap.matchMedia();
 
     mm.add("(min-width: 768px)", () => {
       // MASTER TIMELINE: ALL animations in one engine
@@ -93,8 +93,8 @@ export default function EditorialHero() {
               Engineered. 03.
             </p>
             <p className="text-white/40 leading-relaxed font-medium blend-diff text-sm max-w-xs uppercase tracking-widest">
-              // We build high-fidelity protocols that scale 
-              seamlessly into the decentralized frontier.
+              {"// We build high-fidelity protocols that scale"} 
+              {"seamlessly into the decentralized frontier."}
             </p>
           </div>
         </div>

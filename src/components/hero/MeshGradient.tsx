@@ -21,7 +21,6 @@ export default function MeshGradient() {
         duration: 0.8,
         ease: "power2.out",
         onUpdate: function() { 
-          // @ts-ignore
           mouseX.set(this.targets()[0].val); 
         }
       });
@@ -31,7 +30,6 @@ export default function MeshGradient() {
         duration: 0.8,
         ease: "power2.out",
         onUpdate: function() { 
-          // @ts-ignore
           mouseY.set(this.targets()[0].val); 
         }
       });
