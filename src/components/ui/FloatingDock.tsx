@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, useRef } from 'react';
-import { motion, useScroll, useMotionValueEvent, useSpring, useTransform } from 'framer-motion';
-import { Menu, X, Home, Briefcase, Mail, Cpu } from 'lucide-react';
+import { motion, useScroll, useMotionValueEvent, useSpring } from 'framer-motion';
+import { Menu, Home, Briefcase, Mail, Cpu, type LucideIcon } from 'lucide-react';
 
-const NavItem = ({ label, Icon }: { label: string; Icon: any }) => {
+const NavItem = ({ label, Icon }: { label: string; Icon: LucideIcon }) => {
   const ref = useRef<HTMLAnchorElement>(null);
   const x = useSpring(0, { stiffness: 150, damping: 15 });
   const y = useSpring(0, { stiffness: 150, damping: 15 });

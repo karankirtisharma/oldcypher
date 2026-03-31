@@ -45,7 +45,7 @@ export default function FutureMask() {
 
       <div className="absolute bottom-10 left-6 md:bottom-20 md:left-12 max-w-[80vw] md:max-w-sm z-30">
         <p className="text-white/40 font-mono text-[10px] md:text-xs uppercase tracking-normal md:tracking-widest">
-          // The next era of digital realization is not simulated. It is engineered.
+          {"// The next era of digital realization is not simulated. It is engineered."}
         </p>
       </div>
 

@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef } from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
-import { LucideIcon, Rocket, Shield, Zap, Globe, Coins, Share2 } from 'lucide-react';
+import { LucideIcon, Rocket, Shield, Globe, Coins } from 'lucide-react';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
